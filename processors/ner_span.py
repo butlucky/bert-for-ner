@@ -156,7 +156,7 @@ def convert_examples_to_features(examples,label_list,max_seq_length,tokenizer,
         assert len(start_ids) == max_seq_length
         assert len(end_ids) == max_seq_length
 
-        if ex_index < 5:
+        if ex_index < 200:
             logger.info("*** Example ***")
             logger.info("guid: %s", example.guid)
             logger.info("tokens: %s", " ".join([str(x) for x in tokens]))
@@ -180,19 +180,19 @@ class CnerProcessor(DataProcessor):
 
     def get_train_examples(self, data_dir):
         """See base class."""
-        return self._create_examples(self._read_text(os.path.join(data_dir, "train.char.bmes")), "train")
+        return self._create_examples(self._read_text(os.path.join(data_dir, "vc-ai.bmes")), "train")
 
     def get_dev_examples(self, data_dir):
         """See base class."""
-        return self._create_examples(self._read_text(os.path.join(data_dir, "dev.char.bmes")), "dev")
+        return self._create_examples(self._read_text(os.path.join(data_dir, "vc-ai-dev.bmes")), "dev")
 
     def get_test_examples(self, data_dir):
         """See base class."""
-        return self._create_examples(self._read_text(os.path.join(data_dir, "test.char.bmes")), "test")
+        return self._create_examples(self._read_text(os.path.join(data_dir, "vc-ai-test.bmes")), "test")
 
     def get_labels(self):
         """See base class."""
-        return ["O", "CONT", "ORG","LOC",'EDU','NAME','PRO','RACE','TITLE']
+        return ['O', 'NUM', 'MEET', 'HELP', 'NAME', 'FUNC', 'JOIN', 'FREE', 'EXIT', 'SIGN', 'OCCU', 'CALL', 'REC', 'ADD', 'FEED']
 
     def _create_examples(self, lines, set_type):
         """Creates examples for the training and dev sets."""

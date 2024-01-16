@@ -1,0 +1,462 @@
+看 O
+看 O
+天 O
+气 O
+的 O
+情 O
+况 O
+
+你 B-FUNC
+是 M-FUNC
+谁 E-FUNC
+
+你 O
+能 B-FUNC
+做 M-FUNC
+什 M-FUNC
+么 E-FUNC
+
+你 O
+会 B-FUNC
+干 M-FUNC
+什 M-FUNC
+么 E-FUNC
+
+退 B-EXIT
+出 E-EXIT
+语 B-HELP
+音 M-HELP
+助 M-HELP
+手 E-HELP
+吧 O
+
+关 B-EXIT
+闭 E-EXIT
+吧 O
+
+关 B-EXIT
+闭 E-EXIT
+语 B-HELP
+音 M-HELP
+助 M-HELP
+手 E-HELP
+吧 O
+
+给 O
+我 O
+退 B-EXIT
+下 E-EXIT
+
+消 B-EXIT
+失 E-EXIT
+
+拜 B-EXIT
+拜 E-EXIT
+了 O
+
+闭 B-EXIT
+嘴 E-EXIT
+吧 O
+
+签 B-SIGN
+到 E-SIGN
+我 O
+的 O
+会 B-MEET
+议 M-MEET
+室 E-MEET
+
+把 O
+会 B-MEET
+议 E-MEET
+签 B-SIGN
+下 M-SIGN
+到 E-SIGN
+
+签 B-SIGN
+到 E-SIGN
+了 O
+
+我 O
+要 O
+签 B-SIGN
+个 M-SIGN
+到 E-SIGN
+
+我 O
+要 O
+签 B-SIGN
+下 M-SIGN
+到 E-SIGN
+
+替 O
+我 O
+签 B-SIGN
+到 E-SIGN
+一 O
+下 O
+
+签 B-SIGN
+到 E-SIGN
+下 O
+个 O
+日 B-MEET
+程 E-MEET
+
+把 O
+会 B-MEET
+议 M-MEET
+室 E-MEET
+预 B-OCCU
+订 E-OCCU
+
+预 B-OCCU
+约 E-OCCU
+一 O
+个 O
+即 O
+时 O
+日 B-MEET
+程 E-MEET
+
+预 B-OCCU
+定 E-OCCU
+一 O
+个 O
+即 O
+时 O
+会 B-MEET
+议 E-MEET
+
+替 O
+我 O
+预 B-OCCU
+定 E-OCCU
+即 O
+时 O
+日 B-MEET
+程 E-MEET
+
+替 O
+我 O
+定 B-OCCU
+个 E-OCCU
+日 B-MEET
+程 E-MEET
+
+替 O
+我 O
+约 B-OCCU
+下 E-OCCU
+日 B-MEET
+程 E-MEET
+
+预 B-OCCU
+订 E-OCCU
+会 B-MEET
+议 M-MEET
+室 E-MEET
+吧 O
+
+会 B-MEET
+议 M-MEET
+室 E-MEET
+释 B-FREE
+放 E-FREE
+了 O
+
+替 O
+我 O
+解 B-FREE
+散 E-FREE
+会 B-MEET
+议 M-MEET
+室 E-MEET
+
+帮 O
+我 O
+释 B-FREE
+放 E-FREE
+日 B-MEET
+程 E-MEET
+
+帮 O
+我 O
+取 B-FREE
+消 E-FREE
+会 B-MEET
+议 M-MEET
+室 E-MEET
+
+给 O
+我 O
+结 B-FREE
+束 E-FREE
+日 B-MEET
+程 E-MEET
+
+替 O
+我 O
+日 B-MEET
+程 E-MEET
+释 B-FREE
+放 E-FREE
+
+给 O
+我 O
+释 B-FREE
+放 E-FREE
+会 B-MEET
+议 M-MEET
+室 E-MEET
+
+现 O
+在 O
+延 B-ADD
+长 E-ADD
+会 B-MEET
+议 M-MEET
+室 E-MEET
+
+给 O
+我 O
+延 B-ADD
+长 E-ADD
+日 B-MEET
+程 E-MEET
+
+帮 O
+我 O
+续 B-ADD
+一 M-ADD
+下 E-ADD
+会 B-MEET
+议 E-MEET
+
+续 B-ADD
+一 M-ADD
+下 E-ADD
+会 B-MEET
+议 M-MEET
+室 E-MEET
+现 O
+在 O
+
+我 O
+要 O
+开 B-CALL
+个 E-CALL
+新 B-MEET
+会 M-MEET
+议 E-MEET
+
+替 O
+我 O
+开 S-CALL
+新 B-MEET
+会 M-MEET
+议 E-MEET
+
+给 O
+我 O
+发 B-CALL
+起 E-CALL
+新 B-MEET
+会 M-MEET
+议 E-MEET
+
+来 O
+拉 B-CALL
+个 E-CALL
+新 B-MEET
+会 M-MEET
+议 E-MEET
+
+帮 O
+我 O
+加 B-JOIN
+入 E-JOIN
+会 B-MEET
+议 E-MEET
+
+帮 O
+我 O
+进 B-JOIN
+入 E-JOIN
+会 B-MEET
+议 E-MEET
+
+马 O
+上 O
+把 O
+会 B-MEET
+议 M-MEET
+室 E-MEET
+加 B-JOIN
+进 M-JOIN
+来 E-JOIN
+
+立 O
+即 O
+开 B-CALL
+始 E-CALL
+新 B-MEET
+会 M-MEET
+议 E-MEET
+
+你 O
+帮 O
+我 O
+记 B-REC
+录 M-REC
+下 E-REC
+讨 O
+论 O
+的 O
+结 O
+论 O
+
+给 O
+我 O
+记 B-REC
+下 E-REC
+会 B-MEET
+议 E-MEET
+结 O
+论 O
+
+马 O
+上 O
+发 O
+起 O
+纪 B-REC
+要 E-REC
+
+现 O
+在 O
+开 O
+启 O
+转 B-REC
+录 E-REC
+
+马 O
+上 O
+会 B-MEET
+议 E-MEET
+转 B-REC
+录 E-REC
+
+拉 B-CALL
+一 M-CALL
+下 E-CALL
+伟 B-NAME
+奇 E-NAME
+
+呼 B-CALL
+叫 E-CALL
+吕 B-NAME
+晶 E-NAME
+
+帮 O
+我 O
+呼 B-CALL
+叫 E-CALL
+敏 B-NAME
+明 E-NAME
+
+替 O
+我 O
+呼 B-CALL
+叫 E-CALL
+一 B-NAME
+峰 E-NAME
+
+会 B-NUM
+议 M-NUM
+号 E-NUM
+入 B-JOIN
+会 E-JOIN
+吧 O
+
+输 O
+入 O
+会 B-NUM
+议 M-NUM
+号 E-NUM
+
+马 O
+上 O
+使 O
+用 O
+会 B-NUM
+议 E-NUM
+号 E-NUM
+入 B-JOIN
+会 E-JOIN
+
+加 B-JOIN
+会 E-JOIN
+， O
+使 O
+用 O
+会 B-MEET
+议 M-MEET
+号 E-MEET
+
+现 O
+在 O
+离 B-EXIT
+开 E-EXIT
+会 B-MEET
+议 E-MEET
+
+立 O
+即 O
+会 B-MEET
+议 E-MEET
+结 B-EXIT
+束 E-EXIT
+
+好 O
+了 O
+， O
+结 B-EXIT
+束 E-EXIT
+本 O
+次 O
+会 B-MEET
+议 E-MEET
+
+我 O
+提 O
+个 O
+意 B-FEED
+见 E-FEED
+
+我 O
+要 O
+提 O
+个 O
+建 B-FEED
+议 E-FEED
+
+帮 O
+我 O
+提 O
+个 O
+意 B-FEED
+见 E-FEED
+
+就 O
+提 O
+个 O
+改 B-FEED
+进 M-FEED
+点 E-FEED
+
+只 O
+是 O
+提 O
+个 O
+优 B-FEED
+化 E-FEED
